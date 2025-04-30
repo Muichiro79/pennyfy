@@ -86,13 +86,13 @@ const Header = () => {
           </button>
 
           <ul className="flex flex-col gap-6 text-lg mt-10">
-          <Link to="/">
+          <Link to="/Dashboard/Home">
               <li className="cursor-pointer hover:text-teal-600  dark:text-teal-50">Dashboard</li>
             </Link>
-            <Link to="/articles">
+            <Link to="/Dashboard/settings">
               <li className="cursor-pointer hover:text-teal-600  dark:text-teal-50">Settings</li>
             </Link>
-            <Link to="/tutorials">
+            <Link to="/Dashboard/profile">
               <li className="cursor-pointer hover:text-teal-600  dark:text-teal-50">Profile</li>
             </Link>
             {/* <Link to="/news">
