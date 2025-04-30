@@ -36,7 +36,7 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <ul className="hidden lg:flex flex-row gap-6 text-lg text-gray-800">
-            <Link to="/Dashboard/Home">
+           <Link to="/Dashboard/Home">
               <li className="cursor-pointer hover:text-teal-600  dark:text-teal-50">Dashboard</li>
             </Link>
             <Link to="/Dashboard/settings">
